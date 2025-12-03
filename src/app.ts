@@ -1,7 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import { calculatePortfolioPerformance, largestholdingasset, calculateAllocation } from "../src/portfolio/portfolioPerformance";
 const app: Express = express();
-//Scan trigger   
 
 interface HealthCheckResponse {
     status:string;
