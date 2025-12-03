@@ -9,9 +9,9 @@ interface HealthCheckResponse {
     timestamp:string;
     version: string;
 }
-
+//scan
 app.get("/", (req: Request, res: Response) => {
-    res.send("Hello World");
+    res.send("Hello World 1");
 });
 
 app.get("/api/v1/health", (req:Request, res: Response) => {
