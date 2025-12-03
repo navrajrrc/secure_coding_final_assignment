@@ -9,7 +9,7 @@ interface HealthCheckResponse {
     timestamp:string;
     version: string;
 }
-//scan
+//scan trigger
 app.get("/", (req: Request, res: Response) => {
     res.send("Hello World 1");
 });
